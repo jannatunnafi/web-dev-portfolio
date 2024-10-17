@@ -182,3 +182,44 @@ text-align: left;
     margin-top: 70px;
     margin-bottom: 130px;
   }
+
+  /* resume styles */
+
+  .resume{
+    text-align: center;
+  }
+
+  .education-list{
+    width: 511px;
+    text-align: left;
+  }
+
+  .resume-list{
+    width: 511px;
+    text-align: left;
+   
+  }
+
+  .mega-div{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: 70px 40px 70px 40px;
+  }
+
+  .edu-description {
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+
+  }
+
+  .resume-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;}
+  
+
+ 
