@@ -164,6 +164,7 @@ text-align: left;
 .skills{
   text-align: center;
   margin-top: 130px;
+  margin-bottom: 80px;
 }
 
 .skills-list{
@@ -187,6 +188,8 @@ text-align: left;
 
   .resume{
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 13opx;
   }
 
   .education-list{
@@ -221,5 +224,31 @@ font-family: Open Sans;
 font-size: 14px;
 font-weight: 400;}
   
+/* footer styles */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  padding: 130px 230px;
+  
+}
+
+.footer-column{
+width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"], footer textarea{
+  height: 50px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+
 
  
