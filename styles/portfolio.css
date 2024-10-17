@@ -14,7 +14,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 30px 150px;
   }
 
  
@@ -63,7 +63,59 @@ text-align: center;
 padding: 15px 32px;
 
   }
+
+  /* banner styles */
+
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+  }
+
+  .banner-container{
+    max-width: 498px;
+  }
+
+  .banner-pic{
+    width: 498px;
+  }
+
+  .banner-subtitle{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 500;
+
+text-align: left;
+  }
+
+  .banner-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 70px;
+font-weight: 700;
+
+text-align: left;
+  }
+
+  .banner-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+
+text-align: left;
+  }
   
+  /* header styles */
+
+  .header-image{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+   background-position: top left, bottom right;
+
+  }
 
 
   
